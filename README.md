@@ -1,4 +1,4 @@
-(Github)[https://github.com/samkcarlile/govi]
+[Github](https://github.com/samkcarlile/govi)
 What it is
 ==========
 It has the ability to save JSON documents, and load them into your 
