@@ -9,7 +9,7 @@ module.exports = function (name) {
     this.save = function (callback) {
         x.save(this.id, this.doc, callback);
     }
-    this.remove = function () {
+    this.remove = function (callback) {
         Index.remove(name);
     }
 }

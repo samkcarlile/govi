@@ -15,12 +15,15 @@ module.exports = Index = {
             return true;
         }
     },
-    remove: function (name) {
+    remove: function (name, callback) {
         var index = Index.load();
         if (Index.exists(name)) {
             fs.unlinkSync(__dirname + '/.govi/' + index[name]);
             index[name] = undefined;
             Index.save(index);
+            if (typeof callback !== undefined) {
+                callback();
+            }
             return true;
         } else {
             return false;
