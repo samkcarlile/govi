@@ -32,7 +32,4 @@ To delete a govi object, do this:
 
 Other Stuff
 -----------
-Right now, I'm pretty sure you have to run the node app from the 
-directory that it is in for govi to work...But I'm not entirely sure.
-It usees the `__dirname + '/.govi/'` to store everything. Anyway, maybe 
-you will find govi convenient? :)
+Govi usees `__dirname/.govi/'` to store all it's documents. So if you need to modify anything without the sort of "Govi ORM", then that's where you will find it. Anyway, maybe you will find govi convenient? :)
