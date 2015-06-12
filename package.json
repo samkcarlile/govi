@@ -1,0 +1,14 @@
+{
+  "name": "govi",
+  "version": "0.0.3",
+  "description": "Simple JSON object persistence via documents. That's it.",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "author": "Sam Carlile <samkcarlile@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^2.0.1"
+  }
+}
