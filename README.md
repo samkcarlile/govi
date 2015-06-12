@@ -28,6 +28,8 @@ To delete a govi object, do this:
 
 `Settings.remove();`
 
+*Note: You can also include a callback (ex. `Settings.remove(myFunction)` / `Settings.save(myFunction)`) as a parameter.*
+
 Other Stuff
 -----------
 Right now, I'm pretty sure you have to run the node app from the 

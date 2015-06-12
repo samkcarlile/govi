@@ -21,7 +21,7 @@ module.exports = Index = {
             fs.unlinkSync(__dirname + '/.govi/' + index[name]);
             index[name] = undefined;
             Index.save(index);
-            if (typeof callback !== undefined) {
+            if (callback) {
                 callback();
             }
             return true;
