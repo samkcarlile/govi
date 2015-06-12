@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 What it is
 ==========
 It has the ability to save JSON documents, and load them into your 
@@ -37,4 +36,3 @@ you will find govi convenient? :)
 =======
 # govi
 Simple JSON persistence via documents. That's it.
->>>>>>> 012406115fd8b2c8183fa4d265a00f18d8d8dd07
