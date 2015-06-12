@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 What it is
 ==========
 It has the ability to save JSON documents, and load them into your 
@@ -33,3 +34,7 @@ Right now, I'm pretty sure you have to run the node app from the
 directory that it is in for govi to work...But I'm not entirely sure.
 It usees the `__dirname + '/.govi/'` to store everything. Anyway, maybe 
 you will find govi convenient? :)
+=======
+# govi
+Simple JSON persistence via documents. That's it.
+>>>>>>> 012406115fd8b2c8183fa4d265a00f18d8d8dd07
