@@ -1,6 +1,6 @@
 {
   "name": "govi",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Simple JSON object persistence via documents. That's it.",
   "main": "main.js",
   "scripts": {
